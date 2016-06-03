@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	>
+
+<h:head>
+
+</h:head>
+
+<h:body>
+	<h:form>
+
+
+
+
+		<p:layoutUnit position="south">
+
+			<p:commandButton action="#{loginBB.showAll()}"
+				title="Show all"></p:commandButton>
+			<ui:remove>
+<!-- 			<p:inputText label="id" value="#{loginBB.user.user_id}"></p:inputText> -->
+<!-- 			<p:inputText label="First Name" value="#{loginBB.user.fname}"></p:inputText> -->
+<!-- 			<p:inputText label="Last Name" value="#{loginBB.user.lname}"></p:inputText> -->
+			</ui:remove>
+			<p:commandButton action="#{loginBB.addUser()}"
+				title="Create user"></p:commandButton>	
+		</p:layoutUnit>
+
+	</h:form>
+</h:body>
+</html>

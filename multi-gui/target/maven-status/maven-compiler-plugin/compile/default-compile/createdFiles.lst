@@ -1,0 +1,7 @@
+hr\damirvk\core\entity\PhoneNumber.class
+hr\damirvk\core\entity\User.class
+hr\damirvk\core\entity\Address.class
+hr\damirvk\core\entity\dbutil\CassandraUtil.class
+hr\damirvk\gui\login\LoginBB.class
+hr\damirvk\core\entity\dbutil\impl\DefaultCassandraUtil.class
+hr\damirvk\core\entity\dbutil\AddressCodec.class
